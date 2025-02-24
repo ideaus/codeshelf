@@ -1,6 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playwrite+IT+Moderna:wght@100..400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 
+/* ========= Toggle ========= */
+.baba-tggl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-xl);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.circle-left,
+.circle-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 8px;
+}
+
+    
+
+
+/* ========= root css ========= */
 :root {
     /* colors */
     --white: #fff;
@@ -40,6 +64,8 @@
     --fs-16: 16px;
     --fs-18: 18px;
     --fs-21: 21px;
+    --fs-24: 24px;
+    --fs-28: 28px;
     --fs-30: 30px;
     --fs-32: 32px;
     --fs-36: 36px;
@@ -72,63 +98,121 @@
     --padding-md: 15px;
     --padding-lg: 20px;
     --padding-xl: 25px;
+
+    --radius-xs: 5px;
+    --radius-sm: 10px;
+    --radius-md: 15px;
+    --radius-lg: 20px;
+    --radius-xl: 25px;
+
 }
 
 
 /* Baba Icon Resizer Machine */
-.i12{
+.i12 {
     font-size: var(--fs-12);
 }
-.i16{
+.i14 {
+    font-size: var(--fs-14);
+}
+
+.i16 {
     font-size: var(--fs-16);
 }
-.i18{
+
+.i18 {
     font-size: var(--fs-18);
 }
-.i20{
-    font-size: var(--fs-20);
+
+.i20 {
+    font-size: var(--fs-21);
 }
-.i24{
+
+.i24 {
     font-size: var(--fs-24);
 }
-.i28{
+
+.i28 {
     font-size: var(--fs-28);
 }
-.i32{
+
+.i32 {
     font-size: var(--fs-32);
 }
-.i36{
+
+.i36 {
     font-size: var(--fs-36);
 }
-.i40{
+
+.i40 {
     font-size: var(--fs-40);
 }
-.i44{
+
+.i44 {
     font-size: var(--fs-44);
 }
-.i48{
+
+.i48 {
     font-size: var(--fs-48);
 }
-.i56{
+
+.i56 {
     font-size: var(--fs-56);
 }
-.i64{
+
+.i64 {
     font-size: var(--fs-64);
 }
 
 /* ===== Baba Icon BG ===== */
-.i-bg-primary{
+.i-bg-primary {
     background: var(--color-primary);
     color: var(--white);
     padding: var(--padding-sm);
 }
 
 /* ===== Padding ===== */
-.padding-xs{padding: var(--padding-xs);}
-.padding-sm{padding: var(--padding-sm);}
-.padding-md{padding: var(--padding-md);}
-.padding-lg{padding: var(--padding-lg);}
-.padding-xl{padding: var(--padding-xl);}
+.padding-xs {
+    padding: var(--padding-xs);
+}
+
+.padding-sm {
+    padding: var(--padding-sm);
+}
+
+.padding-md {
+    padding: var(--padding-md);
+}
+
+.padding-lg {
+    padding: var(--padding-lg);
+}
+
+.padding-xl {
+    padding: var(--padding-xl);
+}
+
+/* ===== Corner Radius ===== */
+.radius-xs {
+    border-radius: var(--radius-xs);
+}
+
+.radius-sm {
+    border-radius: var(--radius-sm);
+}
+
+.radius-md {
+    border-radius: var(--radius-md);
+}
+
+.radius-lg {
+    border-radius: var(--radius-lg);
+}
+
+.radius-xl {
+    border-radius: var(--radius-xl);
+}
+
 
 h1,
 h2,
