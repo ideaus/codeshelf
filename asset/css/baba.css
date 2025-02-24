@@ -18,10 +18,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-gap: 8px;
+    gap: 8px;
 }
 
-    
+
 
 
 /* ========= root css ========= */
@@ -112,6 +112,7 @@ gap: 8px;
 .i12 {
     font-size: var(--fs-12);
 }
+
 .i14 {
     font-size: var(--fs-14);
 }
