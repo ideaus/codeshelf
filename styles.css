@@ -1,36 +1,4 @@
  body {
-     font-family: Arial, sans-serif;
      text-align: center;
      padding: 20px;
- }
-
- h1 {
-     color: #333;
- }
-
- #content {
-     margin-top: 20px;
- }
-
- #cds-pr-btn {
-     padding: 16px 24px;
-     outline: none;
-     border: none;
-     background: #000;
-     color: #fff;
-     border-radius: 12px;
-     font-size: 32px;
-
-     /* effect */
-     position: relative;
-     margin: auto;
-     transition: all 0.1s linear;
-     box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
- }
-button:active {
-    transform: scale(0.95);
-}
- #cds-pr-btn:hover {
-     background: #333;
-
  }
