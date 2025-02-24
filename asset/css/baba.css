@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playwrite+IT+Moderna:wght@100..400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+
 :root {
     /* colors */
     --white: #fff;
@@ -7,6 +8,8 @@
     --gray: #333;
 
     /* system colors */
+    --bgl: #fff;
+    --bgd: #000;
     --color-primary: #0077B6;
     --color-primary-light: #00A0E3;
     --color-primary-dark: #005C8D;
@@ -41,6 +44,7 @@
     --fs-32: 32px;
     --fs-36: 36px;
     --fs-40: 40px;
+    --fs-44: 44px;
     --fs-48: 48px;
     --fs-56: 56px;
     --fs-64: 64px;
@@ -61,7 +65,70 @@
     --font-weight-body-bold: 700;
     --font-style-body-regular: normal;
     --font-style-body-italic: italic;
+
+    /* ===== Padding ===== */
+    --padding-xs: 5px;
+    --padding-sm: 10px;
+    --padding-md: 15px;
+    --padding-lg: 20px;
+    --padding-xl: 25px;
 }
+
+
+/* Baba Icon Resizer Machine */
+.i12{
+    font-size: var(--fs-12);
+}
+.i16{
+    font-size: var(--fs-16);
+}
+.i18{
+    font-size: var(--fs-18);
+}
+.i20{
+    font-size: var(--fs-20);
+}
+.i24{
+    font-size: var(--fs-24);
+}
+.i28{
+    font-size: var(--fs-28);
+}
+.i32{
+    font-size: var(--fs-32);
+}
+.i36{
+    font-size: var(--fs-36);
+}
+.i40{
+    font-size: var(--fs-40);
+}
+.i44{
+    font-size: var(--fs-44);
+}
+.i48{
+    font-size: var(--fs-48);
+}
+.i56{
+    font-size: var(--fs-56);
+}
+.i64{
+    font-size: var(--fs-64);
+}
+
+/* ===== Baba Icon BG ===== */
+.i-bg-primary{
+    background: var(--color-primary);
+    color: var(--white);
+    padding: var(--padding-sm);
+}
+
+/* ===== Padding ===== */
+.padding-xs{padding: var(--padding-xs);}
+.padding-sm{padding: var(--padding-sm);}
+.padding-md{padding: var(--padding-md);}
+.padding-lg{padding: var(--padding-lg);}
+.padding-xl{padding: var(--padding-xl);}
 
 h1,
 h2,
